@@ -1,0 +1,29 @@
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #f8f9fa;   
+}  /* Light background for better contrast */
+
+/* Additional styles for header */  
+header {  
+    position: relative;  
+}  
+
+/* Additional styles for product cards */  
+.card {  
+    border: none; 
+}  /* Remove default card borders for a cleaner look */  
+
+.card-title {  
+    font-weight: bold;   
+}  /* Emphasize the product title */
+
+/* Responsive styles to enhance mobile experience */  
+@media (max-width: 576px) {  
+    header h1 {  
+        font-size: 1.5rem; 
+    }  /* Adjust header font size for smaller screens */  
+    .card {  
+        margin: 0 auto; 
+    }  /* Center align cards in a smaller viewport */  
+}  
